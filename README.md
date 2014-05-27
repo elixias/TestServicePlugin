@@ -1,0 +1,4 @@
+TestServicePlugin
+=================
+
+TestServicePlugin for Phonegap
