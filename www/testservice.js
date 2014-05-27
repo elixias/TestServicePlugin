@@ -9,4 +9,4 @@ var testservice = {
         );
     }
 };
-module.exports = testplugin;
+module.exports = testservice;
