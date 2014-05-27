@@ -11,7 +11,7 @@ public class TestService extends CordovaPlugin{
 		if(action.equals("action")){
 			//get arguments
 			int a = Integer.parseInt(args.getString(0));
-			int b = Integer.parseInt(args.getString(0));
+			int b = Integer.parseInt(args.getString(1));
 			if(a+b==10) callbackContext.success(); //success
 			else callbackContext.error("Sum is not 10");//error callback
 			return true;
