@@ -2,7 +2,7 @@ var testservice = {
     createEvent: function(){
     cordova.exec(
         function(winParam) { alert("success"); },
-        functon(error) { alert("error"); },
+        function(error) { alert("error"); },
         "TestService",
         "action",
         ["2", "8"]
